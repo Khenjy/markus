@@ -1,4 +1,4 @@
-<?php 
+<?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
 	/**
@@ -34,6 +34,11 @@
                 'output' => $this->akun_model->tampil('akun')->result()
             );
             $this->load->view('output', $data);
+        }
+
+        function tes()
+        {
+            bla bla bla
         }
 	}
  ?>
